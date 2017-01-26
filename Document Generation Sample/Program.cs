@@ -16,19 +16,19 @@ namespace Document_Generation_Sample
             string destinationFile = Path.Combine(di.Parent.Parent.FullName, "Sample Document.docx");
             string sourceFile = Path.Combine(di.Parent.Parent.FullName, "Sample Template.dotx");
 
-            GenerateDocumentFromTemplate2(sourceFile, destinationFile);
+            GenerateDocumentFromTemplate(sourceFile, destinationFile);
 
             string sSourceXML = Path.Combine(di.Parent.Parent.FullName, "Data.xml");
             UpdateDocument(destinationFile, sSourceXML);
         }
 
-        static void GenerateDocumentFromTemplate2(string inputPath, string outputPath)
+        static void GenerateDocumentFromTemplate(string inputPath, string outputPath)
         {
             MemoryStream documentStream;
-            using (Stream tplStream = File.OpenRead(inputPath))
+            using (Stream stream = File.OpenRead(inputPath))
             {
-                documentStream = new MemoryStream((int)tplStream.Length);
-                CopyStream(tplStream, documentStream);
+                documentStream = new MemoryStream((int)stream.Length);
+                CopyStream(stream, documentStream);
                 documentStream.Position = 0L;
             }
 
