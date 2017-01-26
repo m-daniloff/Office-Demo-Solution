@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Document Generation Sample", "Document Generation Sample\Document Generation Sample.csproj", "{E3EDCF51-FF32-460A-A790-5A6DDF6D0921}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAddIn1", "WordAddIn1\WordAddIn1\WordAddIn1.csproj", "{9776921B-E651-4939-A89C-F39441677848}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{E3EDCF51-FF32-460A-A790-5A6DDF6D0921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3EDCF51-FF32-460A-A790-5A6DDF6D0921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3EDCF51-FF32-460A-A790-5A6DDF6D0921}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9776921B-E651-4939-A89C-F39441677848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9776921B-E651-4939-A89C-F39441677848}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9776921B-E651-4939-A89C-F39441677848}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9776921B-E651-4939-A89C-F39441677848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

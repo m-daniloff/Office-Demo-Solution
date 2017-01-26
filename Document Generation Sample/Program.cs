@@ -12,12 +12,13 @@ namespace Document_Generation_Sample
     {
         static void Main(string[] args)
         {
-            string destinationFile = Path.Combine(Environment.CurrentDirectory, "Sample Document.docx");
-            string sourceFile = Path.Combine(Environment.CurrentDirectory, "Sample Template.dotx");
+            DirectoryInfo di = new DirectoryInfo(Environment.CurrentDirectory);
+            string destinationFile = Path.Combine(di.Parent.Parent.FullName, "Sample Document.docx");
+            string sourceFile = Path.Combine(di.Parent.Parent.FullName, "Sample Template.dotx");
 
             GenerateDocumentFromTemplate2(sourceFile, destinationFile);
 
-            string sSourceXML = Path.Combine(Environment.CurrentDirectory, "Data.xml");
+            string sSourceXML = Path.Combine(di.Parent.Parent.FullName, "Data.xml");
             UpdateDocument(destinationFile, sSourceXML);
         }
 

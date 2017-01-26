@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><TestData xsi:noNamespaceSchemaLocation="DetergentNet.xsd" xmlns="http://www.EsquireInnovations.com/Detergent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Author name="Michael Daniloff"/>
+  <QuickMerge>
+    <Contact id="47">
+      <Line>
+        <FirstName>Elena</FirstName>
+        <MiddleInitial>A.</MiddleInitial>
+        <LastName>Aaron</LastName>
+        <Summary val="Elena A. Johnson"/>
+      </Line>
+      <Line>
+        <JobTitle>Paralegal</JobTitle>
+        <Summary val="Paralegal"/>
+      </Line>
+      <Line>
+        <Company>BigHand</Company>
+        <Summary val="Oracle"/>
+      </Line>
+      <Line>
+        <StreetAddress1>42690 Rio Node Way, Suite C</StreetAddress1>
+        <Summary val="42690 Rio Node Way, Suite C"/>
+      </Line>
+      <Line>
+        <City>Temecula</City>
+        <State>California</State>
+        <Zip>92590</Zip>
+        <Summary val="Temecula, California 92590"/>
+      </Line>
+    </Contact>
+    <Contact id="48">
+      <Line>
+        <FirstName>Michael</FirstName>
+        <MiddleInitial>T.</MiddleInitial>
+        <LastName>Daniloff</LastName>
+        <Summary val="Michael T. Daniloff"/>
+      </Line>
+      <Line>
+        <JobTitle>Software Engineer</JobTitle>
+        <Summary val="Software Engineer"/>
+      </Line>
+      <Line>
+        <Company>BigHand</Company>
+        <Summary val="BigHand"/>
+      </Line>
+      <Line>
+        <StreetAddress1>42690 Rio Node Way, Suite C</StreetAddress1>
+        <Summary val="42690 Rio Node Way, Suite C"/>
+      </Line>
+      <Line>
+        <City>Temecula</City>
+        <State>California</State>
+        <Zip>92590</Zip>
+        <Summary val="Temecula, California 92590"/>
+      </Line>
+    </Contact>
+  <Contact id="49">
+      <Line>
+        <FirstName>Walter</FirstName>
+        <MiddleInitial>T.</MiddleInitial>
+        <LastName>White</LastName>
+        <Summary val="Walter T. White"/>
+      </Line>
+      <Line>
+        <JobTitle>Chemical Engineer</JobTitle>
+        <Summary val="Chemical Engineer"/>
+      </Line>
+      <Line>
+        <Company>Gray Matter</Company>
+        <Summary val="Gray Matter"/>
+      </Line>
+      <Line>
+        <StreetAddress1>42690 Rio Node Way, Suite C</StreetAddress1>
+        <Summary val="42690 Rio Node Way, Suite C"/>
+      </Line>
+      <Line>
+        <City>Temecula</City>
+        <State>California</State>
+        <Zip>92590</Zip>
+        <Summary val="Temecula, New Mexico 92590"/>
+      </Line>
+    </Contact>
+  </QuickMerge>
+</TestData>
